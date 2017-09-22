@@ -639,9 +639,7 @@ void Progress_LED(int p) {
 	*/
 
 	digitalWrite(status_LED_pin, HIGH);
-
-
-
+	
 }
 
 
