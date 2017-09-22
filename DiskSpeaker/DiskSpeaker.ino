@@ -172,10 +172,7 @@ void setup() {
 	audio.setTreble(settings.treble);    // -7..7
 	audio.setBalance(0);   // -31..31
 
-
-	//timer.setInterval(30000, repeatMe);
-
-
+	//make sure that LEDs are off on Power up.
 	Clear_LED();
 
 }
